@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
-import jakarta.servlet.http.HttpServletRequest;  // Use this instead
+import jakarta.servlet.http.HttpServletRequest;
 
 import java.util.Arrays;
 import java.util.List;

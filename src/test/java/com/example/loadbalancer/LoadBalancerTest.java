@@ -10,7 +10,6 @@ import org.springframework.test.web.servlet.MvcResult;
 import java.util.HashMap;
 import java.util.Map;
 
-// Add these static imports!
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
@@ -31,9 +30,8 @@ public class LoadBalancerTest {
                     .andReturn();
 
             String response = result.getResponse().getContentAsString();
-            // Parse response and count hits per server
         }
 
-        // Assert distribution matches expected pattern
+    
     }
 }
