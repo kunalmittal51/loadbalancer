@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+loadBalancer:
+  strategy: roundRobinStrategy  # Options: roundRobin, leastConnections, weightedRoundRobin, ipHash
+
+logging:
+  level:
+    com.example: DEBUG
