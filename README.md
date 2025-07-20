@@ -7,7 +7,7 @@ A high-performance, configurable load balancer built with Spring Boot that suppo
 - **Multiple Load Balancing Strategies**
   - Round Robin
   - Least Connections
-  - Weighted Round Robin
+  - Consistent Hashing
   - IP Hash (Sticky Sessions)
   
 - **Health Monitoring**
